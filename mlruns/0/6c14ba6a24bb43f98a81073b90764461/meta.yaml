@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jin/source/mlops_test/mlruns/0/6c14ba6a24bb43f98a81073b90764461/artifacts
+end_time: 1733301586909
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c14ba6a24bb43f98a81073b90764461
+run_name: unique-fawn-359
+run_uuid: 6c14ba6a24bb43f98a81073b90764461
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733301575948
+status: 3
+tags: []
+user_id: jin

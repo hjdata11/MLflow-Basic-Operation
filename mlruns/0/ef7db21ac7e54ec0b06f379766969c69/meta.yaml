@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jin/source/mlops_test/mlruns/0/ef7db21ac7e54ec0b06f379766969c69/artifacts
+end_time: 1733301795907
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef7db21ac7e54ec0b06f379766969c69
+run_name: unequaled-quail-883
+run_uuid: ef7db21ac7e54ec0b06f379766969c69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733301785191
+status: 3
+tags: []
+user_id: jin

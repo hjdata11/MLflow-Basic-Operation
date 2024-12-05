@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jin/source/mlops_test/mlruns/0/964359a68451498389947af98cd75c38/artifacts
+end_time: 1733302001988
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 964359a68451498389947af98cd75c38
+run_name: enthused-loon-104
+run_uuid: 964359a68451498389947af98cd75c38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733301992247
+status: 3
+tags: []
+user_id: jin
