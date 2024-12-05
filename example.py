@@ -13,6 +13,14 @@ from sklearn.linear_model import ElasticNet
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
+import dagshub
+dagshub.init(repo_owner='hjdata11', repo_name='MLflow-Basic-Operation', mlflow=True)
+
+import os
+os.environ['MLFLOW_TRACKING_USERNAME'] = 'hjdata11'
+os.environ['MLFLOW_TRACKING_PASSWORD'] = '86889e51af823ef037e4e1a6d0998986a55d3468'
+os.environ['MLFLOW_TRACKING_URI'] = 'https://dagshub.com/hjdata11/MLflow-Basic-Operation.mlflow'
+
 import mlflow
 import mlflow.sklearn
 from mlflow.models import infer_signature
@@ -86,7 +94,7 @@ if __name__ == "__main__":
             # please refer to the doc for more information:
             # https://mlflow.org/docs/latest/model-registry.html#api-workflow
             mlflow.sklearn.log_model(
-                lr, "model", registered_model_name="ElasticnetWineModel", signature=signature
+                lr, "model", registered_model_name="ElasticnetWineModel"
             )
         else:
             mlflow.sklearn.log_model(lr, "model", signature=signature)
